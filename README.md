@@ -16,7 +16,24 @@ git submodule update --remote
 RobotViewer
 ├── libs
 │   ├── GlovesViewer
-│   │   └── README.md
+│   │   ├── core
+│   │   │   ├── ble_thread.py
+│   │   │   ├── frame_parser.py
+│   │   │   ├── hand_kinematics.py
+│   │   │   ├── __init__.py
+│   │   │   └── simulator.py
+│   │   ├── favicon.ico
+│   │   ├── logo.png
+│   │   ├── main.py
+│   │   ├── plans
+│   │   │   └── gloves_viewer_architecture.md
+│   │   ├── README.md
+│   │   ├── requirements.txt
+│   │   └── ui
+│   │       ├── hand_3d_widget.py
+│   │       ├── __init__.py
+│   │       ├── main_window.py
+│   │       └── widgets.py
 │   ├── IMUViewer
 │   │   ├── core
 │   │   │   ├── algorithm.py

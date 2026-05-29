@@ -1,0 +1,9 @@
+[submodule "libs/GlovesViewer"]
+	path = libs/GlovesViewer
+	url = https://github.com/RichExplor/GlovesViewer.git
+[submodule "libs/IMUViewer"]
+	path = libs/IMUViewer
+	url = https://github.com/RichExplor/IMUViewer.git
+[submodule "libs/MoCapSuitViewer"]
+	path = libs/MoCapSuitViewer
+	url = https://github.com/RichExplor/MoCapSuitViewer.git
